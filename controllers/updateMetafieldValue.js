@@ -4,6 +4,8 @@ const readline = require('node:readline');
 const { Updatelogger } = require('../helpers/updateLogger');
 require('dotenv').config();
 
+// some comments added 
+
 const token = process.env.ACCESS_TOKEN;
 const store_name = process.env.STORE_NAME;
 const version = process.env.SHOPIFY_VERSION;
